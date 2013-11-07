@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_Icon" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	<path d="M92,37v-4H74v-2H53v-9h1v1h7.214c0.835,1.596,2.487,2.698,4.414,2.698c2.762,0,5-2.239,5-5c0-2.763-2.238-5.001-5-5.001   c-1.766,0-3.31,0.92-4.199,2.303H54v1h-9v-1h-9v1h-1v3h1v1h9v-1h2v9H26v2H9v4h17v2h21v9h2v13h2V48h2v-9h21v-2H92z"/>
+	<rect width="3" height="30"/>
+	<rect x="5" width="3" height="30"/>
+	<rect x="10" width="3" height="30"/>
+	<rect x="15" width="3" height="30"/>
+	<rect y="40" width="3" height="30"/>
+	<rect x="5" y="40" width="3" height="30"/>
+	<rect x="10" y="40" width="3" height="30"/>
+	<rect x="15" y="40" width="3" height="30"/>
+	<rect x="80" width="3" height="30"/>
+	<rect x="85" width="3" height="30"/>
+	<rect x="90" width="3" height="30"/>
+	<rect x="95" width="3" height="30"/>
+	<rect x="80" y="40" width="3" height="30"/>
+	<rect x="85" y="40" width="3" height="30"/>
+	<rect x="90" y="40" width="3" height="30"/>
+	<rect x="95" y="40" width="3" height="30"/>
+	<rect x="34" y="40" width="2" height="13"/>
+	<rect x="37" y="40" width="2" height="13"/>
+	<rect x="40" y="40" width="2" height="13"/>
+	<rect x="58" y="40" width="2" height="13"/>
+	<rect x="61" y="40" width="2" height="13"/>
+	<rect x="64" y="40" width="2" height="13"/>
+	<rect x="36" y="57" width="12" height="6"/>
+	<rect x="52" y="57" width="12" height="6"/>
+</g>
+</svg>
