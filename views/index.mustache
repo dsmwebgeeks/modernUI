@@ -7,10 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Modern Iconsez</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -19,137 +19,198 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="stylesheets/custom-carousel.css" rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="page-outer">
+      <div class="page-inner">
+        
+        <div class="navbar-wrapper">
           <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+
+            <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle trigger-left-panel">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Modern UI Techniques</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#icons">Icons</a></li>
+                    <li><a href="#attributions">Attributions</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Off Site Links</li>
+                        <li><a href="http://thenounproject.com/">Noun Project</a></li>
+                        <li><a href="http://getbootstrap.com/">BootStrap</a></li>
+                        <li><a href="#">Something else here</a></li>
+                      </ul>
+                    </li>
                   </ul>
-                </li>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/1-cropped.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Space Icons: The final frontier</h1>
+                  <p>These are the voyages of a web app about icons. Its brief mission to explore strange new techniques. To seek out new processes and new practices. To boldly go where most other web developers have gone before.</p>
+                  <p><a class="btn btn-lg btn-primary" href="http://shop.startrek.com/" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/2-cropped.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>A long time ago in a galaxy far, far away....</h1>
+                  <p>It is a period of browser war. Rebel developers, striking from an open source comunity, have won their first victory against the evil Enternet Explorer.</p>
+                  <p><a class="btn btn-lg btn-primary" href="http://www.google.com/imgres?imgurl=http://walyou.com/wp-content/uploads//2011/05/Star-Wars-Propaganda-Poster-Rebellion.jpg&imgrefurl=http://walyou.com/star-wars-propaganda-posters/star-wars-propaganda-poster-rebellion/&h=809&w=540&sz=89&tbnid=Kbm1vZfkcYh7aM:&tbnh=90&tbnw=60&zoom=1&usg=__aDAVm_BpeQWo_d5yib3DIwph4po=&docid=LbVg451bp6l2pM&sa=X&ei=Yk18Up6bA8eSyQHnloDwAQ&sqi=2&ved=0CDIQ9QEwAg" role="button">Sign up today!</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/3-cropped.jpg" alt="Three slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Never give up. Never surrender.</h1>
+                  <p><a class="btn btn-lg btn-primary" href="http://www.questarian.com/" role="button">The Questarian</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div><!-- /.carousel -->
+
+
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div id="icons" class="container marketing">
+          <div class="page-heading">
+            <h2>Most Popular Icons <small> <i class="icon-reload">reload</i> </small></h2>
+          </div>
+          <!-- Three columns of text below the carousel -->
+          <div class="well">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/noun_project_24414.png" alt="Generic placeholder image">
+              <h2><a href="http://thenounproject.com/noun/international-space-station/#icon-No24414" target="_blank">International Space Station</a></h2>
+              <p>Designed by <a href="http://thenounproject.com/johnnyrocketcreative">Jon Daiello</a> 2013 from The Noun Project</p>
+              <p><a class="btn btn-default" href="http://thenounproject.com/noun/international-space-station/#icon-No24414" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/noun_project_709.png" alt="Generic placeholder image">
+              <h2><a href="http://thenounproject.com/noun/space-shuttle/#icon-No709" target="_blank">Space Shuttle</a></h2>
+              <p>Designed by <a href="http://thenounproject.com/edward" target="_blank">Edward Boatman</a> from The Noun Project</p>
+              <p><a class="btn btn-default" href="http://thenounproject.com/noun/space-shuttle/#icon-No709" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+              <img class="img-thumbnail" src="images/noun_project_7536.png" alt="Generic placeholder image">
+              <h2><a href="http://thenounproject.com/noun/solar-system/#icon-No7536" target="_blank">Solar System</a></h2>
+              <p>Designed by <a href="http://thenounproject.com/misirlou" target="_blank">Benni </a> from The Noun Project</p>
+              <p><a class="btn btn-default" href="http://thenounproject.com/noun/solar-system/#icon-No7536" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-md-4 -->
+          </div><!-- /.row -->
+          </div>
+
+          <div id="attributions" class="container">
+            <div class="page-heading">
+              <h2>Attributions </h2>
+            </div>
+
+            <div class="section-attributions">
+              <p>Carousel Photos:</p>
+              <ul>
+                <li>Photo Credit: <a href="http://www.flickr.com/photos/8269775@N05/4869858064/">write_adam</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></li>
+                <li>Photo Credit: <a href="http://www.flickr.com/photos/8269775@N05/5709429308/">write_adam</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></li>
+                <li>Photo Credit: <a href="http://www.flickr.com/photos/22433418@N04/5279336463/">davedehetre</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a></li>
+              </ul>
+              <p>Icons:</p>
+              <ul>
+                <li><a href="http://thenounproject.com/noun/mars-rover/#icon-No4917" target="_blank">Mars Rover</a> designed by <a href="http://thenounproject.com/serre.marc" target="_blank">Marc Serre</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/sun/#icon-No170" target="_blank">Sun</a> designed by <a href="http://thenounproject.com/noun/sun/#icon-No170" target="_blank">Unknown Designer</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/earth/#icon-No7478" target="_blank">Earth</a> designed by <a href="http://thenounproject.com/nicografico" target="_blank">Nicolas Ramallo</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/moon/#icon-No11813" target="_blank">Moon</a> designed by <a href="http://thenounproject.com/sebastian.langer.330" target="_blank">Sebastian Langer</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/astronaut/#icon-No16286" target="_blank">Astronaut</a> designed by <a href="http://thenounproject.com/avasiloiei.liviu" target="_blank">Avasiloiei Liviu</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/solar-system/#icon-No7536" target="_blank">Solar System</a> designed by <a href="http://thenounproject.com/misirlou" target="_blank">Benjamin Orlovski</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/death-star/#icon-No12458" target="_blank">Death Star</a> designed by <a href="http://thenounproject.com/iconoci" target="_blank">iconoci</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/planet/#icon-No792" target="_blank">Planet</a> designed by <a href="http://thenounproject.com/tokefrello" target="_blank">Toke Frello</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/space-shuttle/#icon-No709" target="_blank">Space Shuttle</a>  from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/space-tower/#icon-No24736" target="_blank">Space Tower</a> designed by <a href="http://thenounproject.com/fivecity_5c" target="_blank">José Manuel Rodríguez</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/alien-abduction/#icon-No12346" target="_blank">Alien Abduction</a> designed by <a href="http://thenounproject.com/jmkeuning" target="_blank">James Keuning </a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/space-hopper/#icon-No3590" target="_blank">Space Hopper</a> designed by <a href="http://thenounproject.com/Design-Magnetic" target="_blank">Michael Howarth</a> from The Noun Project</li>
+
+                <li><a href="http://thenounproject.com/noun/space-invader/#icon-No17621" target="_blank">Space Invader</a> designed by <a href="http://thenounproject.com/TheGiantBaboon" target="_blank">James Rainsford</a> from The Noun Project</li>
+                <li><a href="http://thenounproject.com/noun/space-needle/#icon-No8661" target="_blank">Space Needle</a> designed by <a href="http://thenounproject.com/kellydh" target="_blank">Kelly Hamilton</a> from The Noun Project</li>
               </ul>
             </div>
-          </div>
-        </div>
 
+
+          </div>
+
+          <!-- FOOTER -->
+          <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </footer>
+
+        </div><!-- /.container -->
       </div>
+
+      <div class="panel-navigation-left">
+        <ul class="nav offcanvas-menu">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#icons">Icons</a></li>
+          <li><a href="#attributions">Attributions</a></li>
+          <li><a href="http://thenounproject.com/">Noun Project</a></li>
+          <li><a href="http://getbootstrap.com/">BootStrap</a></li>
+          <li><a href="#">Something else here</a></li>
+        </ul> <!-- /offcanvas-menu -->
+      </div>
+
     </div>
-
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="images/1-cropped.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/2-cropped.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/3-cropped.jpg" alt="Three slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-      <div class="page-heading">
-        <h2>Most Popular Icons <small> <i class="icon-reload">reload</i> </small></h2>
-      </div>
-      <!-- Three columns of text below the carousel -->
-      <div class="well">
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-thumbnail" src="images/noun_project_24414.png" alt="Generic placeholder image">
-          <h2><a href="http://thenounproject.com/noun/international-space-station/#icon-No24414" target="_blank">International Space Station</a></h2>
-          <p>Designed by <a href="http://thenounproject.com/johnnyrocketcreative">Jon Daiello</a> 2013 from The Noun Project</p>
-          <p><a class="btn btn-default" href="http://thenounproject.com/noun/international-space-station/#icon-No24414" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-thumbnail" src="images/noun_project_24414.png" alt="Generic placeholder image">
-          <h2><a href="http://thenounproject.com/noun/hubble-space-telescope/#icon-No23971" target="_blank">Hubble Space Telescope</a></h2>
-          <p>Designed by <a href="http://thenounproject.com/nrodriguezlima" target="_blank">nikki rodriguez</a> from The Noun Project</p>
-          <p><a class="btn btn-default" href="http://thenounproject.com/noun/hubble-space-telescope/#icon-No23971" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-thumbnail" src="images/noun_project_24414.png" alt="Generic placeholder image">
-          <h2><a href="http://thenounproject.com/noun/hubble-space-telescope/#icon-No23971" target="_blank">Hubble Space Telescope</a></h2>
-          <p>Designed by <a href="http://thenounproject.com/nrodriguezlima" target="_blank">nikki rodriguez</a> from The Noun Project</p>
-          <p><a class="btn btn-default" href="http://thenounproject.com/noun/hubble-space-telescope/#icon-No23971" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      </div>
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -157,21 +218,6 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
     <script src="javascripts/main.js"></script>
-
-<div class="hide">
-  <h4>Attributions</h4>
-  
-  <p class="hide">Photo Credit: <a href="http://www.flickr.com/photos/8269775@N05/4869858064/">write_adam</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></p>
-  <p class="hide">Photo Credit: <a href="http://www.flickr.com/photos/8269775@N05/5709429308/">write_adam</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a></p>
-  <p class="hide">Photo Credit: <a href="http://www.flickr.com/photos/22433418@N04/5279336463/">davedehetre</a> via <a href="http://compfight.com">Compfight</a> <a href="http://creativecommons.org/licenses/by/2.0/">cc</a></p>
-
-<a href="http://thenounproject.com/noun/space-hopper/#icon-No3590" target="_blank">Space Hopper</a> designed by <a href="http://thenounproject.com/Design-Magnetic" target="_blank">Michael Howarth</a> from The Noun Project
-
-<a href="http://thenounproject.com/noun/space-invader/#icon-No17621" target="_blank">Space Invader</a> designed by <a href="http://thenounproject.com/TheGiantBaboon" target="_blank">James Rainsford</a> from The Noun Project
-<a href="http://thenounproject.com/noun/space-needle/#icon-No8661" target="_blank">Space Needle</a> designed by <a href="http://thenounproject.com/kellydh" target="_blank">Kelly Hamilton</a> from The Noun Project
-
-</div>
-
 
   </body>
 </html>
